@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Transaction Category Chart</title>
+</head>
+<body>
+    <h1>Transaction Category Distribution</h1>
+    <img src="{{ url_for('category_chart') }}" alt="Category Pie Chart">
+    <br><br>
+    <a href="{{ url_for('show_transactions') }}">View Transactions</a>
+</body>
+</html>
